@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [nopCommerce Suite]">
+  <listeners>
+    <listener class-name="com.nopcommerce.utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="4" name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008">
+        <methods>
+          <include name="SearchVendorEmail"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008 -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [nopCommerce Suite] -->

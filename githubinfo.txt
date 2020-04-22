@@ -1,0 +1,7 @@
+nopcommerceproject
+
+user name=MoumitaRB
+email=moumitabasak@gmail.com
+pwd= moumitaroybasak1983
+url= https://github.com/MoumitaRB/nopcommerceproject.git
+https://github.com/MoumitaRB/nopcommerceproject.git

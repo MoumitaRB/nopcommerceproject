@@ -1,0 +1,15 @@
+com\nopcommerce\utilities\XUtils.class
+com\nopcommerce\pageObjects\AddCustomerPage.class
+com\nopcommerce\pageObjects\LoginPage.class
+com\nopcommerce\utilities\ExtentReportManager.class
+com\nopcommerce\testBase\TestBaseClass.class
+com\nopcommerce\testCases\SearchCustomerByEmail_004.class
+com\nopcommerce\testCases\AddCustomerTest_003.class
+com\nopcommerce\testCases\DeleteNewAddedCustomer_006.class
+com\nopcommerce\pageObjects\SearchCustomerPage.class
+com\nopcommerce\pageObjects\SearchVendorRolePage.class
+com\nopcommerce\testCases\SearchCustomerByName_005.class
+com\nopcommerce\testCases\TC_LoginDDT_002.class
+com\nopcommerce\testCases\ExportExcelFileOfNewCustomer_007.class
+com\nopcommerce\testCases\SearchVendorEmailByVendorRole_008.class
+com\nopcommerce\testCases\TC_LoginTest_001.class

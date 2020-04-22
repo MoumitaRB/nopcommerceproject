@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="nopCommerce Suite" thread-count="4"  >
+
+
+<listeners>
+   
+    <listener class-name= "com.nopcommerce.utilities.ExtentReportManager"/>
+
+</listeners>
+
+   <test  name="Chrome Test">
+  
+     <parameter name="browser" value="chrome"/>
+  
+    <classes>
+       
+      
+       <class name="com.nopcommerce.testCases.TC_LoginTest_001"/>
+       <class name="com.nopcommerce.testCases.AddCustomerTest_003"/>
+       
+          
+    </classes>
+    
+  </test> 
+  
+  
+  
+</suite> 
