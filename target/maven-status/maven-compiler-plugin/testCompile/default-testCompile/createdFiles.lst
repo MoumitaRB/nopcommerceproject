@@ -10,6 +10,5 @@ com\nopcommerce\pageObjects\SearchCustomerPage.class
 com\nopcommerce\pageObjects\SearchVendorRolePage.class
 com\nopcommerce\testCases\SearchCustomerByName_005.class
 com\nopcommerce\testCases\TC_LoginDDT_002.class
-com\nopcommerce\testCases\ExportExcelFileOfNewCustomer_007.class
 com\nopcommerce\testCases\SearchVendorEmailByVendorRole_008.class
 com\nopcommerce\testCases\TC_LoginTest_001.class

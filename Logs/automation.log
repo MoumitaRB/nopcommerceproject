@@ -504,3 +504,12 @@
 [INFO ] 2020-04-21 16:21:38.921 [main] AddCustomerTest_003 - ***********************Providing Customer details****************************
 [INFO ] 2020-04-21 16:22:44.388 [main] AddCustomerTest_003 - ******************New customer added successfully**********************
 [INFO ] 2020-04-21 16:22:44.388 [main] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-21 23:14:50.067 [main] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-21 23:14:54.638 [main] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-21 23:15:05.041 [main] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-21 23:15:05.041 [main] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-21 23:15:05.044 [main] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-21 23:15:24.140 [main] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-21 23:15:27.720 [main] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-21 23:16:31.404 [main] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-04-21 23:16:31.404 [main] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
