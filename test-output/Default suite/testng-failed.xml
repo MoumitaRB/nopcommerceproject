@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008">
+      <class name="com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007">
         <methods>
-          <include name="SearchVendorEmail"/>
           <include name="tearDown"/>
+          <include name="verifyingExistingFile"/>
+          <include name="ExportExcelFile"/>
+          <include name="verifyingExistingEmail"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008 -->
+      </class> <!-- com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

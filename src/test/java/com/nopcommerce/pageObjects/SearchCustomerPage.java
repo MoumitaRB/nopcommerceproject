@@ -1,8 +1,10 @@
 package com.nopcommerce.pageObjects;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
+import org.apache.commons.io.FileDeleteStrategy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +12,8 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+
+import com.nopcommerce.utilities.XUtils;
 
 public class SearchCustomerPage {
 	
@@ -175,7 +179,7 @@ public class SearchCustomerPage {
 	 public boolean verifyingDeleteMsg()
 	 {  
 		 String delete_msg=crfmDeleteTxt.getText();
-		 if(delete_msg.equals("The customer has been deleted successfully123."))
+		 if(delete_msg.contains("The customer has been deleted successfully."))
 		 {
 			 return true;
 		 }
@@ -197,8 +201,8 @@ public class SearchCustomerPage {
 		 exportToExcel.click();
 	 }
 	 
-	 public void clickOnCustomerToExportExcel(String name) throws InterruptedException
-	 {
+	 public boolean clickOnCustomerToExportExcel(String name) throws InterruptedException
+	 {    boolean flag=false;
 		 for(int i=1; i<=getNoOfRow(); i++)
 	    	{
 	    		String cus_name=ldriver.findElement(By.xpath("//div[@class='dataTables_scrollBody']//table//tbody//tr["+i+"]/td[3]")).getText();
@@ -209,11 +213,15 @@ public class SearchCustomerPage {
 	    	    	clickOnExport();
 	    	        clickOnExportToExcel();
 	    	        Thread.sleep(4000);
-	    	    
+	    	        flag=true;
+	    	    }
+	    	    else
+	    	    {
+	    	    	flag=false;
 	    	    }
 
 	    	}
-
+            return flag;
 	 }    
     
 	 
@@ -228,8 +236,48 @@ public class SearchCustomerPage {
 		 {
 			 return false;
 		 }
+
+		 
+	  }
+	 
+	 public boolean isEmailExists(String location, String email) throws IOException
+	 {    
+		    boolean flag=false;
+	 
+		    String path=location;
+			int rownum=XUtils.getRowCount(path, "Customer");
+			System.out.println(rownum);
 		
+			
+		  for(int r=1; r<=rownum; r++)
+		  {
+			String act_email= XUtils.getCellData(path, "Customer", r, 3);
+			if(act_email.equals(email)) 
+			{
+				flag= true;
+				break;
+			}
+			else
+			{
+				flag= false;
+			}
+		  }
+		  
+		   return flag;
 		 
 	 }
-
+    
+	 public boolean isFileDelete(String location)
+	 {  
+		 File f= new File(location);
+		 
+		 try {
+			 FileDeleteStrategy.FORCE.delete(f);
+		 }catch (IOException ioEx) {
+			 ioEx.printStackTrace();
+			 return false;
+		 }
+		 return true;
+		
+	 }
    }

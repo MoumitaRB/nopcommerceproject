@@ -13,12 +13,13 @@ import com.nopcommerce.testBase.TestBaseClass;
 
 
 public class ExportExcelFileOfNewCustomer_007 extends TestBaseClass{
+
 	
 	public LoginPage lp;
     public AddCustomerPage addcust;
     public SearchCustomerPage searchcust;
     
-    @Test(priority=1)
+    @Test
     public void ExportExcelFile() throws InterruptedException
     {   
     	logger.info("*******************Starting ExportExcelFileOfNewCustomer_007**********************");
@@ -35,18 +36,25 @@ public class ExportExcelFileOfNewCustomer_007 extends TestBaseClass{
 		Thread.sleep(3000);
 		
 		searchcust=new SearchCustomerPage(driver);
-		searchcust.clickOnCustomerToExportExcel("Victoria Terces");
-		
+		boolean status=searchcust.clickOnCustomerToExportExcel("Victoria Terces");
+		if(status==true)
+		{
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
 		
     }
 
-	@Test(priority=2, dependsOnMethods="ExportExcelFile")
-	public void verifyingExistingFile() throws IOException
+	@Test
+	public void verifyingExistingFile() throws IOException, InterruptedException
 	{
 		boolean status=searchcust.isFileExist("C:\\Users\\moumi\\Downloads\\customers.xlsx");
 		if(status==true)
 		{   
-			logger.info("**************************Export file is successfull******************************");
+			logger.info("**************************Export File is successfull******************************");
 			Assert.assertTrue(true);
 		}
 		else
@@ -57,8 +65,45 @@ public class ExportExcelFileOfNewCustomer_007 extends TestBaseClass{
 		}
 		
 		logger.info("******************************Ending of ExportExcelFileOfNewCustomer_007*************************");
+		Thread.sleep(7000);
 	}
 	
+    @Test
+    public void verifyingExistingEmail() throws IOException, InterruptedException 
+    {  
+    	
+    	boolean status=searchcust.isEmailExists("C:\\Users\\moumi\\Downloads\\customers.xlsx", "victoria_victoria@nopCommerce.com");
+    	Thread.sleep(4000);
+    	if(status==true)
+    	{   
+    		logger.info("***********************Email exists in Excel*******************************");
+    		Assert.assertTrue(true);
+    	}
+    	else
+    	{   
+    		logger.warn("**************************Email dose not exists*****************************");
+    		Assert.assertTrue(false);
+    	}
+    	logger.info("******************************Ending of ExportExcelFileOfNewCustomer_007*************************");
+    }
+    
+    
+//    @Test(priority=4)
+//    public void verifyingDeletedFile() throws InterruptedException
+//    {   
+//    	Thread.sleep(3000);
+//    	boolean status=searchcust.isFileDelete("C:\\Users\\moumi\\Downloads\\customers.xlsx");
+//    	Thread.sleep(3000);
+//    	if(status==true)
+//    	{
+//    		Assert.assertTrue(true);
+//    	}
+//    	else
+//    	{
+//    		Assert.assertTrue(false);
+//    	}
+//    }
+    
 	
 }
 

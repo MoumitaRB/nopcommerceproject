@@ -17,7 +17,7 @@ public class SearchCustomerByEmail_004 extends TestBaseClass {
 	public SearchCustomerPage searchcust;
 	
 	
-	@Test(priority=1)
+	@Test
 	public void searchCustomerByEmailTest() throws InterruptedException, IOException
 	{
 		logger.info("*********************Starting SearchCustomerByEmail_004*********************");

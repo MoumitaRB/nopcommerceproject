@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-nopCommerce_Suite">
-              <span class="suite-name border-passed">nopCommerce Suite</span>
+              <span class="suite-name border-failed">nopCommerce Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-nopCommerce_Suite" class="hide-methods failed suite-nopCommerce_Suite"> (hide)</a> <!-- hide-methods failed suite-nopCommerce_Suite -->
+                      <a href="#" panel-name="suite-nopCommerce_Suite" class="show-methods failed suite-nopCommerce_Suite"> (show)</a> <!-- show-methods failed suite-nopCommerce_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-nopCommerce_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007" hash-for-method="ExportExcelFile">ExportExcelFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-nopCommerce_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +116,47 @@
                     <div class="method-list-content passed suite-nopCommerce_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008" hash-for-method="SearchVendorEmail">SearchVendorEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.AddCustomerTest_003" hash-for-method="addNewCustomer">addNewCustomer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.DeleteNewAddedCustomer_006" hash-for-method="deleteNewCustomer">deleteNewCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.ImportExcelFile_009" hash-for-method="importExcelFile">importExcelFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.TC_LoginTest_001" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.SearchCustomerByEmail_004" hash-for-method="searchCustomerByEmailTest">searchCustomerByEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.SearchCustomerByName_005" hash-for-method="searchCustomerByName">searchCustomerByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007" hash-for-method="verifyingExistingEmail">verifyingExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Suite" title="com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007" hash-for-method="verifyingExistingFile">verifyingExistingFile</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-nopCommerce_Suite -->
@@ -122,6 +171,55 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-nopCommerce_Suite" class="panel nopCommerce_Suite">
+          <div class="suite-nopCommerce_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExportExcelFile">
+                  </a> <!-- ExportExcelFile -->
+                  <span class="method-name">ExportExcelFile</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007.ExportExcelFile(ExportExcelFileOfNewCustomer_007.java:46)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-failed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.testCases.AddCustomerTest_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewCustomer">
+                  </a> <!-- addNewCustomer -->
+                  <span class="method-name">addNewCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.testCases.DeleteNewAddedCustomer_006</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteNewCustomer">
+                  </a> <!-- deleteNewCustomer -->
+                  <span class="method-name">deleteNewCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
           <div class="suite-nopCommerce_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -140,14 +238,81 @@
           <div class="suite-nopCommerce_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.nopcommerce.testCases.AddCustomerTest_003</span>
+              <span class="class-name">com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addNewCustomer">
-                  </a> <!-- addNewCustomer -->
-                  <span class="method-name">addNewCustomer</span>
+                  <a name="verifyingExistingEmail">
+                  </a> <!-- verifyingExistingEmail -->
+                  <span class="method-name">verifyingExistingEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyingExistingFile">
+                  </a> <!-- verifyingExistingFile -->
+                  <span class="method-name">verifyingExistingFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.testCases.SearchCustomerByName_005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerByName">
+                  </a> <!-- searchCustomerByName -->
+                  <span class="method-name">searchCustomerByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.testCases.SearchCustomerByEmail_004</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomerByEmailTest">
+                  </a> <!-- searchCustomerByEmailTest -->
+                  <span class="method-name">searchCustomerByEmailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchVendorEmail">
+                  </a> <!-- SearchVendorEmail -->
+                  <span class="method-name">SearchVendorEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Suite-class-passed -->
+          <div class="suite-nopCommerce_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.testCases.ImportExcelFile_009</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="importExcelFile">
+                  </a> <!-- importExcelFile -->
+                  <span class="method-name">importExcelFile</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,6 +335,12 @@
     &lt;classes&gt;
       &lt;class name=&quot;com.nopcommerce.testCases.TC_LoginTest_001&quot;/&gt;
       &lt;class name=&quot;com.nopcommerce.testCases.AddCustomerTest_003&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.testCases.SearchCustomerByEmail_004&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.testCases.SearchCustomerByName_005&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.testCases.DeleteNewAddedCustomer_006&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.testCases.ImportExcelFile_009&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Chrome Test --&gt;
 &lt;/suite&gt; &lt;!-- nopCommerce Suite --&gt;
@@ -183,7 +354,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Chrome Test (2 classes)</span>
+                <span class="test-name">Chrome Test (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,20 +380,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addNewCustomer')
 data.setCell(0, 2, 'com.nopcommerce.testCases.AddCustomerTest_003')
-data.setCell(0, 3, 77553);
+data.setCell(0, 3, 76152);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'com.nopcommerce.testCases.TC_LoginTest_001')
-data.setCell(1, 3, 14979);
+data.setCell(1, 1, 'importExcelFile')
+data.setCell(1, 2, 'com.nopcommerce.testCases.ImportExcelFile_009')
+data.setCell(1, 3, 31430);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteNewCustomer')
+data.setCell(2, 2, 'com.nopcommerce.testCases.DeleteNewAddedCustomer_006')
+data.setCell(2, 3, 23060);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ExportExcelFile')
+data.setCell(3, 2, 'com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007')
+data.setCell(3, 3, 19775);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchCustomerByEmailTest')
+data.setCell(4, 2, 'com.nopcommerce.testCases.SearchCustomerByEmail_004')
+data.setCell(4, 3, 15565);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SearchVendorEmail')
+data.setCell(5, 2, 'com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008')
+data.setCell(5, 3, 14313);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchCustomerByName')
+data.setCell(6, 2, 'com.nopcommerce.testCases.SearchCustomerByName_005')
+data.setCell(6, 3, 13998);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyingExistingFile')
+data.setCell(7, 2, 'com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007')
+data.setCell(7, 3, 7002);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'com.nopcommerce.testCases.TC_LoginTest_001')
+data.setCell(8, 3, 6220);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyingExistingEmail')
+data.setCell(9, 2, 'com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007')
+data.setCell(9, 3, 5242);
 window.suiteTableData['nopCommerce_Suite']= { tableData: data, tableDiv: 'times-div-nopCommerce_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-nopCommerce_Suite">
               </div> <!-- times-div-nopCommerce_Suite -->
             </div> <!-- times-div -->
@@ -255,26 +458,126 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">18739 ms</span>
+                <span class="method-start">13852 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33738 ms</span>
+                <span class="method-start">20092 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.testCases.DeleteNewAddedCustomer_006</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">20612 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteNewCustomer</span>
+                <span class="method-start">30835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53895 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.nopcommerce.testCases.AddCustomerTest_003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">35249 ms</span>
+                <span class="method-start">54132 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addNewCustomer</span>
-                <span class="method-start">45526 ms</span>
+                <span class="method-start">63965 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">123079 ms</span>
+                <span class="method-start">140117 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">144205 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExportExcelFile</span>
+                <span class="method-start">154361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingExistingEmail</span>
+                <span class="method-start">174168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyingExistingFile</span>
+                <span class="method-start">179410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186412 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.testCases.SearchCustomerByEmail_004</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">186554 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerByEmailTest</span>
+                <span class="method-start">196448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212014 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">212386 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SearchVendorEmail</span>
+                <span class="method-start">222431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">236744 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.testCases.ImportExcelFile_009</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">236986 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">importExcelFile</span>
+                <span class="method-start">246875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">278305 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.testCases.SearchCustomerByName_005</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">278566 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchCustomerByName</span>
+                <span class="method-start">288246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">302244 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

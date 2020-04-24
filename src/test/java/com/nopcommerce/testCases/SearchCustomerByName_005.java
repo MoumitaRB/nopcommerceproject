@@ -39,7 +39,7 @@ public class SearchCustomerByName_005 extends TestBaseClass {
 		searchcust.clickOnSearchBtn();
 		Thread.sleep(5000);
 		
-		boolean status=searchcust.searchByName("James Pan1");
+		boolean status=searchcust.searchByName("James Pan");
 		if(status==true)
 		{   
 			logger.info("*********************SearchCustomer by name is passed*****************************");

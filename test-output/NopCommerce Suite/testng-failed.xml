@@ -7,13 +7,13 @@
   <test thread-count="4" name="Chrome Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008">
+      <class name="com.nopcommerce.testCases.DeleteNewAddedCustomer_006">
         <methods>
-          <include name="SearchVendorEmail"/>
+          <include name="deleteNewCustomer"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008 -->
+      </class> <!-- com.nopcommerce.testCases.DeleteNewAddedCustomer_006 -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [nopCommerce Suite] -->

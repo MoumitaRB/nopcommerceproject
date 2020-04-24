@@ -513,3 +513,93 @@
 [INFO ] 2020-04-21 23:15:27.720 [main] AddCustomerTest_003 - ***********************Providing Customer details****************************
 [INFO ] 2020-04-21 23:16:31.404 [main] AddCustomerTest_003 - ******************New customer added successfully**********************
 [INFO ] 2020-04-21 23:16:31.404 [main] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-24 00:36:16.414 [main] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-24 00:36:17.876 [main] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-24 00:36:23.432 [main] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-24 00:36:23.432 [main] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-24 00:36:23.435 [main] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-24 00:36:37.898 [main] DeleteNewAddedCustomer_006 - **********************Starting DeleteAddCustomer_006*************************
+[INFO ] 2020-04-24 00:37:39.746 [main] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-24 00:37:43.712 [main] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-24 00:38:46.314 [main] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-04-24 00:38:46.314 [main] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-24 00:38:59.220 [main] SearchVendorEmailByVendorRole_008 - ****************************Starting of SearchVendorEmailByVendorRole_008**************************
+[INFO ] 2020-04-24 00:39:07.217 [main] SearchVendorEmailByVendorRole_008 - *******************Vendor email search is successfull*******************
+[INFO ] 2020-04-24 00:39:10.219 [main] SearchVendorEmailByVendorRole_008 - **********************Ending of SearchVendorEmailByVendorRole_008*************************
+[INFO ] 2020-04-24 00:39:20.069 [main] ImportExcelFile_009 - ************************Starting ImportExcelFile_009************************
+[INFO ] 2020-04-24 00:40:02.128 [main] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-04-24 00:40:15.791 [main] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-04-24 00:40:15.791 [main] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-04-24 00:45:24.540 [main] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-24 00:45:25.720 [main] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-24 00:45:29.980 [main] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-24 00:45:29.980 [main] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-24 00:45:29.983 [main] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-24 00:45:40.305 [main] DeleteNewAddedCustomer_006 - **********************Starting DeleteAddCustomer_006*************************
+[INFO ] 2020-04-24 00:45:58.888 [main] DeleteNewAddedCustomer_006 - ***************************New customer deleted successfully**************************
+[INFO ] 2020-04-24 00:46:01.890 [main] DeleteNewAddedCustomer_006 - ***************************End of DeleteAddCustomer_006************************** 
+[INFO ] 2020-04-24 00:46:18.496 [main] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-24 00:46:21.492 [main] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-24 00:47:24.549 [main] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-04-24 00:47:24.549 [main] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-24 00:47:37.982 [main] SearchVendorEmailByVendorRole_008 - ****************************Starting of SearchVendorEmailByVendorRole_008**************************
+[INFO ] 2020-04-24 00:47:46.980 [main] SearchVendorEmailByVendorRole_008 - *******************Vendor email search is successfull*******************
+[INFO ] 2020-04-24 00:47:49.986 [main] SearchVendorEmailByVendorRole_008 - **********************Ending of SearchVendorEmailByVendorRole_008*************************
+[INFO ] 2020-04-24 00:48:00.039 [main] ImportExcelFile_009 - ************************Starting ImportExcelFile_009************************
+[INFO ] 2020-04-24 00:48:42.950 [main] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-04-24 00:48:59.092 [main] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-04-24 00:48:59.092 [main] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-04-24 00:52:07.903 [main] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-24 00:52:09.597 [main] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-24 00:52:14.514 [main] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-24 00:52:14.514 [main] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-24 00:52:14.517 [main] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-24 00:52:28.722 [main] DeleteNewAddedCustomer_006 - **********************Starting DeleteAddCustomer_006*************************
+[INFO ] 2020-04-24 00:52:46.871 [main] DeleteNewAddedCustomer_006 - ***************************New customer deleted successfully**************************
+[INFO ] 2020-04-24 00:52:49.875 [main] DeleteNewAddedCustomer_006 - ***************************End of DeleteAddCustomer_006************************** 
+[INFO ] 2020-04-24 00:53:07.376 [main] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-24 00:53:12.282 [main] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-24 00:54:15.112 [main] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-04-24 00:54:15.112 [main] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-24 00:54:28.642 [main] ExportExcelFileOfNewCustomer_007 - *******************Starting ExportExcelFileOfNewCustomer_007**********************
+[INFO ] 2020-04-24 00:54:52.337 [main] ExportExcelFileOfNewCustomer_007 - ***********************Email exists in Excel*******************************
+[INFO ] 2020-04-24 00:54:52.337 [main] ExportExcelFileOfNewCustomer_007 - ******************************Ending of ExportExcelFileOfNewCustomer_007*************************
+[INFO ] 2020-04-24 00:54:52.337 [main] ExportExcelFileOfNewCustomer_007 - **************************Export File is successfull******************************
+[INFO ] 2020-04-24 00:54:52.337 [main] ExportExcelFileOfNewCustomer_007 - ******************************Ending of ExportExcelFileOfNewCustomer_007*************************
+[INFO ] 2020-04-24 00:55:09.355 [main] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-04-24 00:55:22.942 [main] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-04-24 00:55:22.947 [main] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-04-24 00:55:33.145 [main] SearchVendorEmailByVendorRole_008 - ****************************Starting of SearchVendorEmailByVendorRole_008**************************
+[INFO ] 2020-04-24 00:55:41.640 [main] SearchVendorEmailByVendorRole_008 - *******************Vendor email search is successfull*******************
+[INFO ] 2020-04-24 00:55:44.642 [main] SearchVendorEmailByVendorRole_008 - **********************Ending of SearchVendorEmailByVendorRole_008*************************
+[INFO ] 2020-04-24 00:55:54.799 [main] ImportExcelFile_009 - ************************Starting ImportExcelFile_009************************
+[INFO ] 2020-04-24 00:56:37.162 [main] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-04-24 00:56:51.253 [main] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-04-24 00:56:51.253 [main] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-04-24 01:10:05.323 [main] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-24 01:10:06.922 [main] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-24 01:10:11.540 [main] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-24 01:10:11.540 [main] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-24 01:10:11.543 [main] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-24 01:10:22.306 [main] DeleteNewAddedCustomer_006 - **********************Starting DeleteAddCustomer_006*************************
+[INFO ] 2020-04-24 01:10:42.364 [main] DeleteNewAddedCustomer_006 - ***************************New customer deleted successfully**************************
+[INFO ] 2020-04-24 01:10:45.366 [main] DeleteNewAddedCustomer_006 - ***************************End of DeleteAddCustomer_006************************** 
+[INFO ] 2020-04-24 01:11:02.323 [main] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-24 01:11:05.196 [main] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-24 01:12:08.583 [main] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-04-24 01:12:08.584 [main] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-24 01:12:25.832 [main] ExportExcelFileOfNewCustomer_007 - *******************Starting ExportExcelFileOfNewCustomer_007**********************
+[INFO ] 2020-04-24 01:12:50.881 [main] ExportExcelFileOfNewCustomer_007 - ***********************Email exists in Excel*******************************
+[INFO ] 2020-04-24 01:12:50.881 [main] ExportExcelFileOfNewCustomer_007 - ******************************Ending of ExportExcelFileOfNewCustomer_007*************************
+[INFO ] 2020-04-24 01:12:50.881 [main] ExportExcelFileOfNewCustomer_007 - **************************Export File is successfull******************************
+[INFO ] 2020-04-24 01:12:50.881 [main] ExportExcelFileOfNewCustomer_007 - ******************************Ending of ExportExcelFileOfNewCustomer_007*************************
+[INFO ] 2020-04-24 01:13:07.919 [main] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-04-24 01:13:23.484 [main] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-04-24 01:13:23.484 [main] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-04-24 01:13:33.902 [main] SearchVendorEmailByVendorRole_008 - ****************************Starting of SearchVendorEmailByVendorRole_008**************************
+[INFO ] 2020-04-24 01:13:45.213 [main] SearchVendorEmailByVendorRole_008 - *******************Vendor email search is successfull*******************
+[INFO ] 2020-04-24 01:13:48.215 [main] SearchVendorEmailByVendorRole_008 - **********************Ending of SearchVendorEmailByVendorRole_008*************************
+[INFO ] 2020-04-24 01:13:58.346 [main] ImportExcelFile_009 - ************************Starting ImportExcelFile_009************************
+[INFO ] 2020-04-24 01:14:39.717 [main] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-04-24 01:14:53.715 [main] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-04-24 01:14:53.715 [main] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************

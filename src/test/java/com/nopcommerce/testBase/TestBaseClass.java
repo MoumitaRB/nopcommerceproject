@@ -69,7 +69,7 @@ public Logger logger=LogManager.getLogger(this.getClass());
 	@AfterClass
 	public void tearDown()
 	{
-		driver.quit();
+		driver.close();
 	}
 	
 	public void captureScreen(WebDriver driver, String tname) throws IOException

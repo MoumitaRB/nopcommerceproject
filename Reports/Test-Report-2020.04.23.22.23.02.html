@@ -44,7 +44,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Apr 21, 2020 11:14:31 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Apr 23, 2020 10:23:02 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -59,7 +59,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -102,10 +102,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -123,17 +123,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>loginTest</span>
-						<span class='test-time'>Apr 21, 2020 11:15:05 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-name'>importExcelFile</span>
+						<span class='test-time'>Apr 23, 2020 10:23:29 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Apr 21, 2020 11:15:05 PM</span>
-	<span class='label end-time'>Apr 21, 2020 11:15:05 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+3ms</span>
+	<span class='label start-time'>Apr 23, 2020 10:23:29 PM</span>
+	<span class='label end-time'>Apr 23, 2020 10:23:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+10ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -145,52 +145,34 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>11:15:05 PM</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>10:23:29 PM</td>
 				<td class='step-details'>
-						Test Case PASSED IS loginTest
+						TEST CASE FAILED IS importExcelFile
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>10:23:29 PM</td>
+				<td class='step-details'>
+						TEST CASE FAILED IS org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'DESKTOP-E4SG70C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\moumi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb52580cc10ee41b115bbd402e50c933
 					
 				</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
-					<div class='test-heading'>
-						<span class='test-name'>addNewCustomer</span>
-						<span class='test-time'>Apr 21, 2020 11:16:34 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Apr 21, 2020 11:16:34 PM</span>
-	<span class='label end-time'>Apr 21, 2020 11:16:34 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>11:16:34 PM</td>
-				<td class='step-details'>
-						Test Case PASSED IS addNewCustomer
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='D:\JavaWorkspace\nopcommerceproject\Screenshots\importExcelFile.png' src='D:\JavaWorkspace\nopcommerceproject\Screenshots\importExcelFile.png' data-src='D:\JavaWorkspace\nopcommerceproject\Screenshots\importExcelFile.png'></li>
+						</ul>
 					</div>
 				</li>
 			</ul>
@@ -221,7 +203,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -233,19 +215,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Apr 21, 2020 11:14:31 PM</div>
+					<div class='panel-lead'>Apr 23, 2020 10:23:02 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Apr 21, 2020 11:16:35 PM</div>
+			 		<div class='panel-lead'>Apr 23, 2020 10:23:29 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 2m 4s+207ms</div>
+					<div class='panel-lead'>0h 0m 26s+751ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -280,14 +262,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 2,
-				passParent: 2,
-				failParent: 0,
+                parentCount: 1,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -312,7 +294,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "loginTest":0.003,"addNewCustomer":0
+			        "importExcelFile":0.01
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
