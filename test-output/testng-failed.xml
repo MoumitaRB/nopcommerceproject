@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [nopCommerce Suite]">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [nopCommerce Suite]" parallel="tests">
   <listeners>
     <listener class-name="com.nopcommerce.utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="4" name="Chrome Test(failed)">
+  <test thread-count="4" name="Chrome Test(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nopcommerce.testCases.DeleteNewAddedCustomer_006">
+      <class name="com.nopcommerce.testCases.TC_LoginDataDrivenFromDataBase_011">
         <methods>
-          <include name="deleteNewCustomer"/>
           <include name="tearDown"/>
+          <include name="verifyingLoginData" invocation-numbers="1 2 3"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.nopcommerce.testCases.DeleteNewAddedCustomer_006 -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginDataDrivenFromDataBase_011 -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [nopCommerce Suite] -->

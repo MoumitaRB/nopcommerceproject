@@ -82,6 +82,7 @@ public class ExportExcelFileOfNewCustomer_007 extends TestBaseClass{
     	else
     	{   
     		logger.warn("**************************Email dose not exists*****************************");
+    		captureScreen(driver, "ExportExcelFile");
     		Assert.assertTrue(false);
     	}
     	logger.info("******************************Ending of ExportExcelFileOfNewCustomer_007*************************");

@@ -1,5 +1,8 @@
+D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\pageObjects\ConfigurationPage.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\AddCustomerTest_003.java
+D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\TC_LoginDDFromDataBase_012.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\ExportExcelFileOfNewCustomer_007.java
+D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\TC_LoginDataDrivenFromDataBase_011.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\SearchCustomerByName_005.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\TC_LoginDDT_002.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\pageObjects\LoginPage.java
@@ -9,9 +12,11 @@ D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\pageObjects\Se
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\utilities\XUtils.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\pageObjects\AddCustomerPage.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\SearchCustomerByEmail_004.java
+D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\utilities\DataBaseUtils.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\utilities\ExtentReportManager.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\ImportExcelFile_009.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\TC_LoginTest_001.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\DeleteNewAddedCustomer_006.java
+D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\ImportStatesCSVFile_010.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testBase\TestBaseClass.java
 D:\JavaWorkspace\nopcommerceproject\src\test\java\com\nopcommerce\testCases\SearchVendorEmailByVendorRole_008.java

@@ -46,7 +46,7 @@ public class SearchCatalogPage {
     	ldriver.findElement(importBtn).click();
     }
     
-    public void setImportExcelFile(String path) throws InterruptedException, SikuliException
+    public void uploadImportExcelFile(String path) throws InterruptedException, SikuliException
     {
     	choosefile=ldriver.findElement(txtexcelfile);
     	JavascriptExecutor js= (JavascriptExecutor) ldriver;

@@ -603,3 +603,81 @@
 [INFO ] 2020-04-24 01:14:39.717 [main] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
 [INFO ] 2020-04-24 01:14:53.715 [main] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
 [INFO ] 2020-04-24 01:14:53.715 [main] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-04-24 22:26:48.625 [main] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-24 22:26:48.656 [main] TC_LoginDataDrivenFromDataBase_011 - *******************LoginTest is Passed********************
+[INFO ] 2020-04-24 22:26:55.047 [main] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-24 22:26:55.047 [main] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-04-24 22:27:31.542 [main] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-24 22:27:31.542 [main] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-04-24 22:28:12.917 [main] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-24 22:28:12.918 [main] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-04-25 10:16:00.800 [main] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-25 10:16:02.739 [main] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-25 10:16:08.947 [main] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-25 10:16:08.947 [main] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-25 10:16:08.950 [main] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-25 10:33:51.466 [main] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-25 10:33:52.648 [main] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-25 10:33:57.778 [main] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-25 10:33:57.779 [main] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-25 10:33:57.782 [main] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-25 10:45:06.378 [main] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-25 10:45:07.879 [main] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-25 10:45:13.178 [main] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-25 10:45:13.178 [main] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-25 10:45:13.181 [main] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-25 10:45:29.861 [main] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-25 10:45:34.150 [main] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-25 10:46:36.376 [main] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-04-25 10:46:36.376 [main] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-25 10:53:31.048 [TestNG-tests-1] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-25 10:53:36.000 [TestNG-tests-1] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-25 10:53:41.212 [TestNG-tests-3] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-25 10:53:46.276 [TestNG-tests-1] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-25 10:53:46.276 [TestNG-tests-1] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-25 10:53:46.280 [TestNG-tests-1] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-25 10:53:48.601 [TestNG-tests-3] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-25 10:54:08.690 [TestNG-tests-1] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-25 10:54:14.316 [TestNG-tests-1] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-25 10:54:19.766 [TestNG-tests-2] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-25 10:54:22.830 [TestNG-tests-2] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-25 10:54:28.442 [TestNG-tests-3] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-25 10:54:28.442 [TestNG-tests-3] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-25 10:54:28.442 [TestNG-tests-3] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-25 10:54:37.292 [TestNG-tests-2] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-25 10:54:37.292 [TestNG-tests-2] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-25 10:54:37.292 [TestNG-tests-2] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-25 10:54:44.582 [TestNG-tests-3] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-25 10:54:59.415 [TestNG-tests-3] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-25 10:55:10.211 [TestNG-tests-2] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-04-25 10:55:16.609 [TestNG-tests-2] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-04-25 10:55:21.459 [TestNG-tests-1] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-04-25 10:55:21.459 [TestNG-tests-1] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-25 10:56:22.555 [TestNG-tests-2] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-04-25 10:56:22.555 [TestNG-tests-2] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-04-25 11:02:41.041 [TestNG-tests-1] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-25 11:02:42.356 [TestNG-tests-1] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-25 11:02:46.822 [TestNG-tests-1] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-25 11:02:46.822 [TestNG-tests-1] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-25 11:02:46.825 [TestNG-tests-1] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-25 11:03:08.960 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-25 11:03:08.960 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - *******************LoginTest is Passed********************
+[INFO ] 2020-04-25 11:03:15.800 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-25 11:03:15.800 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-04-25 11:03:51.944 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-25 11:03:51.944 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-04-25 11:04:28.076 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-25 11:04:28.076 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-04-25 22:00:05.916 [TestNG-tests-1] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-04-25 22:00:07.958 [TestNG-tests-1] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-04-25 22:00:16.862 [TestNG-tests-1] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-04-25 22:00:16.862 [TestNG-tests-1] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-04-25 22:00:16.866 [TestNG-tests-1] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-04-25 22:00:42.784 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-25 22:00:42.785 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - *******************LoginTest is Passed********************
+[INFO ] 2020-04-25 22:00:50.130 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-25 22:00:50.130 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-04-25 22:01:27.495 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-25 22:01:27.496 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-04-25 22:02:05.077 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
+[INFO ] 2020-04-25 22:02:05.078 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************

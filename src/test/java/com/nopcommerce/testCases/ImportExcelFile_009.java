@@ -1,5 +1,7 @@
 package com.nopcommerce.testCases;
 
+import java.io.IOException;
+
 import org.sikuli.script.SikuliException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,7 +16,7 @@ public class ImportExcelFile_009 extends TestBaseClass{
 	public SearchCatalogPage  catalogpage;
 	
 	@Test
-	public void importExcelFile() throws InterruptedException, SikuliException
+	public void verifyingimportExcelFile() throws InterruptedException, SikuliException, IOException
 	{  
 		logger.info("************************Starting ImportExcelFile_009************************" );
 		
@@ -29,19 +31,22 @@ public class ImportExcelFile_009 extends TestBaseClass{
 		catalogpage.clickOnListCatagories();
 		catalogpage.clickOnImportBtn();
 		Thread.sleep(3000);
-		catalogpage.setImportExcelFile("C:\\excelData\\ImportExcel.xlsx");
+		catalogpage.uploadImportExcelFile("C:\\excelData\\ImportExcel.xlsx");
 		Thread.sleep(3000);
 		
 		boolean status=catalogpage.verifyingCofirmMsg("Categories have been imported successfully.");
 		if(status==true)
-		{
+		{   
+			logger.info("***********************Import excel file is successfull********************");
 			Assert.assertTrue(true);
 		}
 		else
-		{
+		{   
+			logger.warn("*************************Import Excel file is not successfull*********************");
+			captureScreen(driver,"verifyingimportExcelFile");
 			Assert.assertTrue(false);
 		}
 		
-		
+		logger.info("**************************End of ImportExcelFile_009****************************");
 	}
 }

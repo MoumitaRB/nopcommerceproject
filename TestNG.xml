@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="nopCommerce Suite" thread-count="4"  >
+<suite name="nopCommerce Suite" thread-count="4" parallel="tests" >
 
 
 <listeners>
@@ -16,8 +16,9 @@
      <parameter name="browser" value="chrome"/>
   
     <classes>
-    
+       
        <class name="com.nopcommerce.testCases.TC_LoginTest_001"/>
+      <!-- -<class name="com.nopcommerce.testCases.TC_LoginDDT_002"/>
        <class name="com.nopcommerce.testCases.AddCustomerTest_003"/>
        <class name="com.nopcommerce.testCases.SearchCustomerByEmail_004"/>
        <class name="com.nopcommerce.testCases.SearchCustomerByName_005"/>
@@ -25,12 +26,58 @@
        <class name="com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007"/>
        <class name="com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008"/>
        <class name="com.nopcommerce.testCases.ImportExcelFile_009"/>
-       
-          
+       <class name="com.nopcommerce.testCases.ImportStatesCSVFile_010"/>-->
+       <class name="com.nopcommerce.testCases.TC_LoginDataDrivenFromDataBase_011"/>
+      
+      
     </classes>
     
   </test> 
   
+  <!-- -<test  name="Firefox Test">
   
+     <parameter name="browser" value="firefox"/>
+  
+    <classes>
+       
+       <class name="com.nopcommerce.testCases.TC_LoginTest_001"/>
+       <class name="com.nopcommerce.testCases.TC_LoginDDT_002"/>
+       <class name="com.nopcommerce.testCases.AddCustomerTest_003"/>
+       <class name="com.nopcommerce.testCases.SearchCustomerByEmail_004"/>
+       <class name="com.nopcommerce.testCases.SearchCustomerByName_005"/>
+       <class name="com.nopcommerce.testCases.DeleteNewAddedCustomer_006"/>
+       <class name="com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007"/>
+       <class name="com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008"/>
+       <class name="com.nopcommerce.testCases.ImportExcelFile_009"/>
+       <class name="com.nopcommerce.testCases.ImportStatesCSVFile_010"/>
+       <class name="com.nopcommerce.testCases.TC_LoginDataDrivenFromDataBase_011"/>
+      
+      
+    </classes>
+    
+  </test>--> 
+  
+   <!-- - <test  name="IE Test">
+  
+     <parameter name="browser" value="ie"/>
+  
+    <classes>
+       
+       <class name="com.nopcommerce.testCases.TC_LoginTest_001"/>
+       <class name="com.nopcommerce.testCases.TC_LoginDDT_002"/>
+       <class name="com.nopcommerce.testCases.AddCustomerTest_003"/>
+       <class name="com.nopcommerce.testCases.SearchCustomerByEmail_004"/>
+       <class name="com.nopcommerce.testCases.SearchCustomerByName_005"/>
+       <class name="com.nopcommerce.testCases.DeleteNewAddedCustomer_006"/>
+       <class name="com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007"/>
+       <class name="com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008"/>
+       <class name="com.nopcommerce.testCases.ImportExcelFile_009"/>
+       <class name="com.nopcommerce.testCases.ImportStatesCSVFile_010"/>
+       <class name="com.nopcommerce.testCases.TC_LoginDataDrivenFromDataBase_011"/>
+      
+      
+    </classes>
+    
+  </test> -->
   
 </suite> 
