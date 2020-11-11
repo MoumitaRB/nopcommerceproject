@@ -681,3 +681,19 @@
 [INFO ] 2020-04-25 22:01:27.496 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
 [INFO ] 2020-04-25 22:02:05.077 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ***************validation*********************
 [INFO ] 2020-04-25 22:02:05.078 [TestNG-tests-1] TC_LoginDataDrivenFromDataBase_011 - ********************LoginTest is Passed*******************
+[INFO ] 2020-11-11 13:46:43.173 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-11 13:46:53.661 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-11 13:46:53.664 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-11 14:03:34.812 [TestNG-tests-1] TC_LoginTest_001 - ***********Starting TC_LoginTest_001**********
+[INFO ] 2020-11-11 14:03:35.897 [TestNG-tests-1] TC_LoginTest_001 - ************Providing login details****************
+[INFO ] 2020-11-11 14:03:39.677 [TestNG-tests-1] TC_LoginTest_001 - ************Verifying login test************************
+[INFO ] 2020-11-11 14:03:39.678 [TestNG-tests-1] TC_LoginTest_001 - *******************Login Test Passed******************
+[INFO ] 2020-11-11 14:03:39.682 [TestNG-tests-1] TC_LoginTest_001 - ****************Finishing TC_Login_Test_001****************
+[INFO ] 2020-11-11 14:07:17.433 [TestNG-tests-1] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-11-11 14:07:20.104 [TestNG-tests-1] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-11-11 14:12:03.249 [TestNG-tests-1] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-11-11 14:12:06.388 [TestNG-tests-1] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-11-11 14:15:09.359 [TestNG-tests-1] AddCustomerTest_003 - ****************Starting AddCustomerTest_003******************
+[INFO ] 2020-11-11 14:15:11.137 [TestNG-tests-1] AddCustomerTest_003 - ***********************Providing Customer details****************************
+[INFO ] 2020-11-11 14:16:32.157 [TestNG-tests-1] AddCustomerTest_003 - ******************New customer added successfully**********************
+[INFO ] 2020-11-11 14:16:32.159 [TestNG-tests-1] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************

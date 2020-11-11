@@ -17,17 +17,17 @@
   
     <classes>
        
-       <class name="com.nopcommerce.testCases.TC_LoginTest_001"/>
-      <!-- -<class name="com.nopcommerce.testCases.TC_LoginDDT_002"/>
+       <!-- <class name="com.nopcommerce.testCases.TC_LoginTest_001"/>
+       <class name="com.nopcommerce.testCases.TC_LoginDDT_002"/>-->
        <class name="com.nopcommerce.testCases.AddCustomerTest_003"/>
-       <class name="com.nopcommerce.testCases.SearchCustomerByEmail_004"/>
+       <!--  <class name="com.nopcommerce.testCases.SearchCustomerByEmail_004"/>
        <class name="com.nopcommerce.testCases.SearchCustomerByName_005"/>
        <class name="com.nopcommerce.testCases.DeleteNewAddedCustomer_006"/>
        <class name="com.nopcommerce.testCases.ExportExcelFileOfNewCustomer_007"/>
        <class name="com.nopcommerce.testCases.SearchVendorEmailByVendorRole_008"/>
        <class name="com.nopcommerce.testCases.ImportExcelFile_009"/>
-       <class name="com.nopcommerce.testCases.ImportStatesCSVFile_010"/>-->
-       <class name="com.nopcommerce.testCases.TC_LoginDataDrivenFromDataBase_011"/>
+       <class name="com.nopcommerce.testCases.ImportStatesCSVFile_010"/>
+       <class name="com.nopcommerce.testCases.TC_LoginDataDrivenFromDataBase_011"/>-->
       
       
     </classes>

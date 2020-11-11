@@ -42,7 +42,7 @@ public class AddCustomerTest_003 extends TestBaseClass{
 		addcust.setDateOfBirth("November 2018","17");
 		addcust.setCompany("Wipro");
 		addcust.setOnTaxExempt();
-		addcust.setOnNewsLetter();
+		//addcust.setOnNewsLetter();
 		addcust.setCustomerRole("Forum Moderators");
 		addcust.setManagerOfVendor("Vendor 1");
 		addcust.setAdminComment("This is for testing");
