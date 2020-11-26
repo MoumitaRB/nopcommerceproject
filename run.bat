@@ -1,4 +1,2 @@
-cd \
-D:
-cd D:\JavaWorkspace\nopcommerceproject
-mvn clean test 
+cd C:\Users\moumi\git\nopcommerceproject
+mvn clean test

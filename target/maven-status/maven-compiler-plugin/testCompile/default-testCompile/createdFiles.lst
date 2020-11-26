@@ -10,7 +10,6 @@ com\nopcommerce\testBase\TestBaseClass.class
 com\nopcommerce\testCases\SearchCustomerByEmail_004.class
 com\nopcommerce\testCases\AddCustomerTest_003.class
 com\nopcommerce\testCases\DeleteNewAddedCustomer_006.class
-com\nopcommerce\testCases\TC_LoginDDFromDataBase_012.class
 com\nopcommerce\pageObjects\SearchCustomerPage.class
 com\nopcommerce\pageObjects\SearchVendorRolePage.class
 com\nopcommerce\testCases\SearchCustomerByName_005.class

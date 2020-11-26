@@ -697,3 +697,80 @@
 [INFO ] 2020-11-11 14:15:11.137 [TestNG-tests-1] AddCustomerTest_003 - ***********************Providing Customer details****************************
 [INFO ] 2020-11-11 14:16:32.157 [TestNG-tests-1] AddCustomerTest_003 - ******************New customer added successfully**********************
 [INFO ] 2020-11-11 14:16:32.159 [TestNG-tests-1] AddCustomerTest_003 - ************************Finishing AddCustomerTest_003****************************
+[INFO ] 2020-11-13 16:51:13.853 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-13 16:51:35.176 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-13 16:51:35.180 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-13 16:51:40.612 [TestNG-tests-1] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-13 16:51:50.750 [TestNG-tests-1] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-13 16:51:50.751 [TestNG-tests-1] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-13 16:52:17.516 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-13 16:52:27.301 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-13 16:52:27.305 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-13 16:52:32.751 [TestNG-tests-1] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-13 16:52:42.260 [TestNG-tests-1] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-13 16:52:42.260 [TestNG-tests-1] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-13 17:37:33.587 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-13 17:37:43.938 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-13 17:37:43.942 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-13 17:37:49.382 [TestNG-tests-1] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-13 17:37:58.596 [TestNG-tests-1] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-13 17:37:58.597 [TestNG-tests-1] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-13 17:49:16.724 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-13 17:49:30.508 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-13 17:49:30.513 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-13 17:49:36.279 [TestNG-tests-1] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-13 17:49:48.428 [TestNG-tests-1] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-13 17:49:48.429 [TestNG-tests-1] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-13 17:53:42.963 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-13 17:53:53.767 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-13 17:53:53.772 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-13 17:53:59.330 [TestNG-tests-1] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-13 17:54:09.818 [TestNG-tests-1] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-13 17:54:09.818 [TestNG-tests-1] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-13 17:57:38.156 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-13 17:57:49.176 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-13 17:57:49.183 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-13 17:57:54.787 [TestNG-tests-1] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-13 17:58:05.656 [TestNG-tests-1] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-13 17:58:05.657 [TestNG-tests-1] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-14 15:59:59.933 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-14 16:00:11.286 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-14 16:00:11.290 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-14 16:00:16.829 [TestNG-tests-1] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-14 16:00:28.210 [TestNG-tests-1] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-14 16:00:28.210 [TestNG-tests-1] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-14 16:02:26.813 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-14 16:02:26.840 [TestNG-tests-3] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-14 16:02:28.283 [TestNG-tests-2] SearchCustomerByEmail_004 - *********************Starting SearchCustomerByEmail_004*********************
+[INFO ] 2020-11-14 16:02:42.849 [TestNG-tests-3] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-14 16:02:42.852 [TestNG-tests-3] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-14 16:02:44.459 [TestNG-tests-1] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-14 16:02:44.459 [TestNG-tests-1] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-14 16:02:45.348 [TestNG-tests-2] SearchCustomerByEmail_004 - *********************SearchCustomer by email is Passed*****************************
+[INFO ] 2020-11-14 16:02:45.348 [TestNG-tests-2] SearchCustomerByEmail_004 - **********************End of SearchCustomerByEmail_004*****************************
+[INFO ] 2020-11-14 16:02:48.477 [TestNG-tests-3] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-14 16:02:50.199 [TestNG-tests-1] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-14 16:02:52.873 [TestNG-tests-2] SearchCustomerByName_005 - *********************Starting SearchCustomerByName_005*********************
+[INFO ] 2020-11-14 16:03:03.607 [TestNG-tests-3] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-14 16:03:03.607 [TestNG-tests-3] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-14 16:03:06.238 [TestNG-tests-1] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-14 16:03:06.238 [TestNG-tests-1] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-14 16:03:07.167 [TestNG-tests-2] SearchCustomerByName_005 - *********************SearchCustomer by name is passed*****************************
+[INFO ] 2020-11-14 16:03:07.167 [TestNG-tests-2] SearchCustomerByName_005 - ************************End of SearchCustomerByName_005**************************
+[INFO ] 2020-11-26 15:00:29.019 [TestNG-tests-1] TC_LoginDDT_002 - ***********Starting TC_LoginDDT_002**********
+[INFO ] 2020-11-26 15:00:29.814 [TestNG-tests-1] TC_LoginDDT_002 - *************Providing login data************
+[INFO ] 2020-11-26 15:00:37.943 [TestNG-tests-1] TC_LoginDDT_002 - ***************validation*********************
+[INFO ] 2020-11-26 15:00:37.944 [TestNG-tests-1] TC_LoginDDT_002 - *******************LoginTest is Passed********************
+[INFO ] 2020-11-26 15:00:38.023 [TestNG-tests-1] TC_LoginDDT_002 - **************Finished TC_LoginDDT_002***********************
+[INFO ] 2020-11-26 15:00:38.049 [TestNG-tests-1] TC_LoginDDT_002 - ***********Starting TC_LoginDDT_002**********
+[INFO ] 2020-11-26 15:00:38.329 [TestNG-tests-1] TC_LoginDDT_002 - *************Providing login data************
+[INFO ] 2020-11-26 15:00:44.047 [TestNG-tests-1] TC_LoginDDT_002 - ***************validation*********************
+[INFO ] 2020-11-26 15:00:44.047 [TestNG-tests-1] TC_LoginDDT_002 - ********************LoginTest is Passed*******************
+[INFO ] 2020-11-26 15:01:14.110 [TestNG-tests-1] TC_LoginDDT_002 - ***********Starting TC_LoginDDT_002**********
+[INFO ] 2020-11-26 15:01:14.478 [TestNG-tests-1] TC_LoginDDT_002 - *************Providing login data************
+[INFO ] 2020-11-26 15:01:20.198 [TestNG-tests-1] TC_LoginDDT_002 - ***************validation*********************
+[INFO ] 2020-11-26 15:01:20.198 [TestNG-tests-1] TC_LoginDDT_002 - ********************LoginTest is Passed*******************
+[INFO ] 2020-11-26 15:01:50.215 [TestNG-tests-1] TC_LoginDDT_002 - ***********Starting TC_LoginDDT_002**********
+[INFO ] 2020-11-26 15:01:50.543 [TestNG-tests-1] TC_LoginDDT_002 - *************Providing login data************
+[INFO ] 2020-11-26 15:01:56.209 [TestNG-tests-1] TC_LoginDDT_002 - ***************validation*********************
+[INFO ] 2020-11-26 15:01:56.209 [TestNG-tests-1] TC_LoginDDT_002 - ********************LoginTest is Passed*******************
